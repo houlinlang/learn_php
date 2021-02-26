@@ -1,0 +1,17 @@
+{
+  "name": "houli/learn_php",
+  "type": "project",
+  "authors": [
+    {
+      "name": "houlinlang",
+      "email": "houlinlang@163.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [],
+    "classmap": [
+      "helper/Output.php"
+    ]
+  }
+}
