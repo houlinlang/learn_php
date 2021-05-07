@@ -12,7 +12,7 @@
   "autoload": {
     "files": [],
     "classmap": [
-      "helper/Output.php"
+      "helper/"
     ]
   }
 }
