@@ -1,15 +1,14 @@
 <?php
-namespace learnphp;
+include "vendor/autoload.php";
+?>
+<!DOCTYPE html>
+<h1>php项目</h1>
+<a href="sudoku/">数独</a>
+<br>
+<a href="leecode/">leecode</a>
+<br>
+<a href="practice/">页面测试</a>
+<?php
+use practice\Worker;
 
-include 'vendor/autoload.php';
-
-use helper\LeeCode;
-
-//开启报错
-ini_set('max_execution_time', '0');
-ini_set("display_errors", 1);
-ini_set('max_execution_time', '0');
-error_reporting(E_ALL);
-
-$ans = LeeCode::Solution1190("(abc(de)f)");
-echo $ans;
+Worker::tester();

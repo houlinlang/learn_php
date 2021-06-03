@@ -1,7 +1,5 @@
 {
   "name": "houli/learn_php",
-  "type": "project",
-  "description": "",
   "authors": [
     {
       "name": "houlinlang",
@@ -10,9 +8,8 @@
   ],
   "require": {},
   "autoload": {
-    "files": [],
-    "classmap": [
-      "helper/"
-    ]
+    "psr-4": {
+      "practice\\": "practice/"
+    }
   }
 }
