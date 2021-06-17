@@ -1,4 +1,9 @@
 <?php
 namespace leecode;
 
-$nums = [4,12,2];
+include "../vendor/autoload.php";
+
+
+use leecode\Solutions;
+
+var_dump(Solutions::stoneGame([4,2,10,9]));

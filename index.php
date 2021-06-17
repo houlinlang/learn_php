@@ -9,6 +9,7 @@ include "vendor/autoload.php";
 <br>
 <a href="practice/">页面测试</a>
 <?php
+
 use practice\Worker;
 
 Worker::tester();
